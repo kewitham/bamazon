@@ -53,7 +53,7 @@ var viewProducts = function(){
 			}
 			//return choiceArray;
 			//console.log(choiceArray);
-			runSearch();
+			//runSearch();
 		})
 	//})
 	//})
@@ -71,7 +71,7 @@ var viewlowInventory = function(){
                 	runSearch();
                 } else {
                 	console.log("Stock quantities are high!")
-                	runSearch();
+                	//runSearch();
                 }
 	}
 	})
@@ -108,7 +108,7 @@ var addInventory = function(){
                                 console.log("Quantity is now " + answer.stockQuantity)
                                 
                           	})
-								runSearch();
+								//runSearch();
  						})
 
                     	//start();
@@ -145,7 +145,7 @@ var addInventory = function(){
             stockQuantity: answer.stockQuantity,
         }, function(err, res) {
             console.log("Your new product was added successfully!");
-            runSearch();
+            //runSearch();
         });
     })
 }
