@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "bamazon",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "mysql": "^2.11.1",
+    "prompt": "^1.0.0",
+    "inquirer": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewitham/bamazon.git"
+  },
+  "author": "Katie Witham kewitham@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kewitham/bamazon/issues"
+  },
+  "homepage": "https://github.com/kewitham/bamazon#readme"
+}
